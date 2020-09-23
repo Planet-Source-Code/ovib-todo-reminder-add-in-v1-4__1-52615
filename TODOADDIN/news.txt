@@ -1,0 +1,31 @@
+Update history:
+
+v1.4
+***************
+-added help button in toolbar
+-added tooltip to options button in toolbar
+-changed refresh button image in toolbar
+
+v1.3
+***************
+-the number of tags listed at one time in grid is shown in add-in's wiindow titlebar
+-toolbar can be aligned to the left or to the top of the window (new option in options dialog)
+-the grid doesn't contain an empty line anymore (under the fixed row of the grid)
+-when there are no items to be show in the grid, the fact is clearly displayed in the grid
+-last column always took the entire grid space
+-reduced the flicker associated with grid refresh
+-tooltip on the refresh button in toolbar includes the keyboard shortcut
+
+
+v1.2
+***************
+- ability to add custom tags.
+you can have 40 custom tags + 1 fixed tag (todo). if there are more than one single line with tag list definition in the open projects, all (up to 40) custom tags will be used (not just the firs one encountered). you can define a list of custom tags with a comment line like this
+
+'todoaddintaglist: bug, todo_v3, todo_qa
+
+-pop-up menu extender (more options)
+-option dialog
+-about box
+-other smaller changes
+
